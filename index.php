@@ -25,7 +25,7 @@
             <div class="container-fluid">
                 <div class="row navbar"></div>
                 <div class="row">
-                    <div class="col-3 sidebar">
+                    <div class="col-2 sidebar">
                         <ul>
                             <li>Home</li>
                             <hr>
@@ -38,7 +38,60 @@
                             <li>News</li>
                         </ul>
                     </div>
-                    <div class="col-5 content"></div>
+                    <div class="col-6 content">
+                        <div class="row">
+                            <div class="col">
+                                <article>
+                                    <p>
+                                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam ratione dolorum eaque placeat in incidunt omnis, officiis cupiditate vero reprehenderit! Accusantium amet quaerat sit. Quod, minus. Temporibus assumenda autem blanditiis!</span>
+                                        <span>Similique, atque mollitia soluta, laudantium odio id nihil rerum quas consequatur at cupiditate blanditiis facere vel. Aspernatur voluptate optio modi laudantium quasi exercitationem, fugiat laborum, excepturi dolor expedita illo possimus.</span>
+                                        <span>A possimus, minima explicabo, nam deleniti et porro fugiat iusto architecto mollitia culpa fuga labore blanditiis commodi nesciunt doloremque non consequuntur. Voluptatibus quasi, vel ducimus beatae exercitationem fuga at ea?</span>
+                                        <span>Rem quisquam repudiandae ratione non, veritatis illo quae ad vitae consectetur voluptatibus perspiciatis quaerat at aspernatur delectus cumque eligendi harum a! Eveniet commodi nam blanditiis at illo animi dolor eligendi!</span>
+                                    </p>
+                                </article>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col">
+                                <article>
+                                    <p>
+                                        <span>Esse, unde modi. Ratione necessitatibus consectetur iure sapiente delectus et aliquid cupiditate repellat qui animi, rerum sed ut accusantium ducimus culpa suscipit aspernatur eius commodi debitis. Autem esse non ad?</span>
+                                        <span>Corporis, ullam. Quos blanditiis qui voluptatum in eaque sed quidem aliquid, vitae optio illum iste repudiandae sunt repellat mollitia pariatur cumque quae dicta! Vitae obcaecati porro quod debitis hic ab?</span>
+                                        <span>Ipsam unde possimus quae iste, earum nihil laudantium quisquam optio, dolor repellendus vero commodi eius dicta, quis placeat molestiae. Harum unde perspiciatis ullam repudiandae a? Nulla temporibus a magni praesentium?</span>
+                                        <span>Debitis, quis omnis. Neque, unde doloribus velit nobis possimus debitis, iste nisi laborum assumenda maiores esse eius modi incidunt ducimus ullam in, dicta architecto? Repudiandae voluptatem ut odit aut culpa.</span>
+                                    </p>
+                                </article>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col">
+                                <article>
+                                    <p>
+                                        <span>Magnam nam blanditiis adipisci. Magnam, eum fuga, eaque numquam nesciunt assumenda sit unde ratione maxime eveniet esse dignissimos praesentium aspernatur voluptatum fugiat velit maiores aperiam, quis non possimus id voluptas.</span>
+                                        <span>Repudiandae culpa delectus molestiae ipsa perferendis aspernatur id amet provident! Animi necessitatibus quia vel magni tempore cumque corrupti temporibus fugit! Nesciunt animi illo quidem libero consequuntur cumque temporibus quasi modi.</span>
+                                        <span>Labore accusamus itaque fugit minima voluptatibus cum! Impedit ea officia dicta cum ipsum quibusdam autem hic at! Libero et asperiores labore necessitatibus adipisci tenetur distinctio id aspernatur suscipit. Voluptatibus, voluptate!</span>
+                                        <span>Voluptas laborum illo ex vitae dicta mollitia error distinctio cumque. Commodi, tempore doloremque! Maxime quos natus sapiente sequi ipsum! Pariatur assumenda dolorem repudiandae ut suscipit porro sunt animi vero excepturi!</span>
+                                    </p>
+                                </article>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col">
+                                <article>
+                                    <p>
+                                        <span>Quis quia ipsum cupiditate quae! Fugit quis rem odit voluptatibus facere sapiente omnis vel magnam doloremque. Aliquid, atque dolor. Enim, eveniet vero! Enim rem nemo eos harum rerum animi sint.</span>
+                                        <span>Aut temporibus, numquam aliquam modi reprehenderit libero enim eos iusto itaque rem magni alias omnis! In dolore ipsum, repudiandae totam ex delectus, repellendus cum ab quas odit ut, nostrum deleniti.</span>
+                                        <span>Necessitatibus voluptas repellat optio temporibus, iste dicta dolores corrupti quibusdam ullam iusto, incidunt unde quo excepturi blanditiis ad! Quisquam vitae sequi, neque natus veniam quas sunt iure nemo nulla eum.</span>
+                                        <span>Perspiciatis at ex quod odit, ad consequatur! Dolor cumque, totam labore delectus, deserunt dignissimos quae eveniet eum tempore, adipisci voluptatibus maxime minus atque dolorum sapiente pariatur fugiat suscipit. Fugiat, vero!</span>
+                                    </p>
+                                </article>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
                     <div class="col-4 panelid">
                         <div class="row">
                             <div class="col-12">
