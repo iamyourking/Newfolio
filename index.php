@@ -14,31 +14,39 @@
 </head>
 <body>
     <div id="main-page">
-        <div class="maincontent"> <br> <br>
-            <h1 class=" animated bounce">Bienvenue sur le blog de Jérémy</h1> <br>
-            <a style="font-size: 35px;" class="mainlink">Entrer ! 🕺🏿</a>                
+        <div class="maincontent">
+            <div class=" mainrow">
+                <div class="col">
+                    <h1 class="animated bounce">Bienvenue sur le blog de Jérémy</h1> <br>
+                    <a style="font-size: 35px;" class="mainlink">Entrer ! </a>
+                </div>
+                <div class="col">
+                    <span>🎊</span>    
+                    <span>💃🏽  🕺🏿</span>
+                </div>
+            </div>            
         </div>
     </div>
              
     <div id="next-page">
         <div class="nextcontent">
             <div class="container-fluid">
-                <div class="row navbar"></div>
+
                 <div class="row">
                     <div class="col-2 sidebar">
                         <ul>
                             <li>Home</li>
-                            <hr>
+                            
                             <li>Login</li>
-                            <hr>
+                        
                             <li>C.V</li>
-                            <hr>
+                            
                             <li>Projects</li>
-                            <hr>
+                            
                             <li>News</li>
                         </ul>
                     </div>
-                    <div class="col-6 content">
+                    <div class="col-7 content">
                         <div class="row">
                             <div class="col">
                                 <article>
@@ -92,20 +100,24 @@
                         </div>
                         <hr>
                     </div>
-                    <div class="col-4 panelid">
+                    <div class="col-3 panelid">
                         <div class="row">
                             <div class="col-12">
                                 <br> <br>
-                                <div class="card" style="width: 18rem; margin:auto;">
+                                <div class="card" style="width: 18rem; margin:auto;    background-color: #575757;">
+                                    <br>
                                     <img class="img-top" src="profile.jpeg" alt="Jérémy TCHISSAMBOU">
-                                    <p style="margin:auto;"> 
-                                        TCHISSAMBOU Jérémy
-                                    </p>
-                                    <hr>
-                                    <div class="card-body">
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <br>
+                                    <p class="name" style="margin:auto;"> 
+                                        Jérémy TCHISSAMBOU <br>
+                                        Front-End Developer
+                                    </p> <br>
+                                    <div class="card-body describe_body">
+                                        <p class="card-text describe">
+                                        Étudiant en seconde année de BTS SIO option SLAM.<br>
+                                        Actuellement en stage chez Datategy comme Développeur Front-End Angular. 
+                                        </p>
                                     </div>
-                                    <hr>
                                     <div class="card-body">
                                         <div class="card-text">
                                             <div class="row">
@@ -157,7 +169,7 @@
             $({deg: 0}).animate({deg: angle}, args);
         });
     };
-    $("#main-page").css("background-color", "#27ae60");
+    $("#main-page").css("background", "linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);");
     $("#main-page").css("height", "100vh");
     $("#main-page").css("width", "100%");
     $("#main-page").fadeIn();

@@ -16,7 +16,9 @@ h1 {
     position: absolute;
     top: 0; bottom: 0; left: 0; right: 0;
     margin: auto;
-    background-color: #27ae60;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
     display: none;
 }
 #next-page {
@@ -47,6 +49,7 @@ a.mainlink, a.nextlink {
     font-family: 'Lato';
     color: #fff;
     border: 3px solid #fff;
+    border-radius: 50% 20% / 10% 40%;
     padding: 15px 10px;
     display: block;
     text-align: center;
@@ -63,40 +66,41 @@ a.mainlink:hover, a.nextlink:hover{
     color: #575757;
 }
 
-.navbar{
-    height: 15vh;
-    background-color: rgb(31, 31, 31);
-}
 .sidebar {
     background-color: rgb(31, 31, 31);
-    height: 85vh;
+    height: 100vh;
     border-right: 1px solid coral;
     padding-left: 0;
     padding-right: 0;
     color: white;
 }
 
-hr {
-    background-color: rgb(143, 143, 143);
-}
 .panelid {
-    background-color: aliceblue;
+    background-color: whitesmoke;
     border: 1px solid lightgray;
     box-shadow: 0 0 5px 2px lightgray inset; 
     border-top: 1px solid coral;
 }
 .content {
     border-top: 1px solid coral;
-    overflow: scroll;
-    height: 85vh;
+    overflow: overlay;
+    height: 100vh;
+    padding-top: 25px;
+}
+
+.sidebar{
+    padding-left: 0!important;
+    padding-right: 0!important;
 }
 
 .sidebar ul{
     width: 100%;
     list-style: none;
+    margin-top: 40%;
     padding-left: 0;
-    margin-top: 30%;
+    padding-right: 0;
 }
+
 .sidebar ul li {
     padding: 5px;
     width: 100%;
@@ -105,6 +109,7 @@ hr {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 5px;
+    border: 1px solid coral;
 }
 
 .img-top {
@@ -113,12 +118,45 @@ hr {
     width: 150px;
     margin: auto;
     padding: 10px;
+    border: 2px solid white;
+}
+.img-top:hover {
+    height: 160px;
+    width: 160px;
+    transition: 0.3s;
+    filter: contrast(1.4);
 }
 
 .card-text .row .col a {
     margin : auto;
 }
+.card-text .row .col a:hover {
+    filter: brightness(0) invert(1);
+    transition: 0.4s;
+}
 
 .card {
-    background-color: #575757;
+    margin-top: 10%;
+}
+
+.name {
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.describe {
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+.describe_body {
+    background-color: rgb(31, 31, 31);
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.mainrow {
+
 }
