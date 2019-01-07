@@ -21,8 +21,6 @@
                     <a style="font-size: 35px;" class="mainlink">Entrer ! </a>
                 </div>
                 <div class="col">
-                    <span>🎊</span>    
-                    <span>💃🏽  🕺🏿</span>
                 </div>
             </div>            
         </div>
